@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT_planck_grid(
     KC_TAB,         KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           SE_AA,
     KC_ESCAPE,      KC_A,           KC_S,           KC_D,           KC_F,           KC_G,           KC_H,           KC_J,           KC_K,           KC_L,           SE_OSLH,        SE_ADIA,
-    KC_LSHIFT,      KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_N,           KC_M,           KC_COMMA,       KC_DOT,         SE_SLSH,       KC_RSHIFT,
+    KC_LSHIFT,      KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,           KC_N,           KC_M,           KC_COMMA,       KC_DOT,         SE_SLSH,        KC_RSHIFT,
     KC_BSPACE,      KC_LCTRL,       KC_LALT,        KC_LGUI,        MO(2),          KC_SPACE,       KC_NO,          KC_ENTER,       KC_LEFT,        KC_DOWN,        KC_UP,          KC_RIGHT
   ),
 
@@ -56,8 +56,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT_planck_grid(
     SE_GRV,         KC_EXLM,        SE_AT,          SE_LCBR_MAC,    SE_RCBR_MAC,    SE_AMPR,        SE_ASTR,        KC_7,           KC_8,           KC_9,           SE_PLUS,        SE_EQL,
-    SE_TILD,        SE_CIRC,        SE_DLR,         SE_LPRN,        SE_RPRN,        SE_APOS,        SE_DQUO,        KC_4,           KC_5,           KC_6,           SE_MINS,        SE_UNDS,
-    SE_PIPE_MAC,    KC_HASH,        KC_PERC,        SE_LBRC,        SE_RBRC,        SE_LESS_MAC,    SE_GRTR_MAC,    KC_1,           KC_2,           KC_3,           SE_BSLS_MAC,    KC_TRANSPARENT,
+    SE_TILD,        SE_CIRC,        SE_DLR,         SE_LPRN,        SE_RPRN,        SE_QUOT,        SE_SCLN,        KC_4,           KC_5,           KC_6,           SE_MINS,        SE_UNDS,
+    SE_PIPE_MAC,    KC_HASH,        KC_PERC,        SE_LBRC,        SE_RBRC,        SE_DQUO,        SE_COLN,        KC_1,           KC_2,           KC_3,           SE_BSLS_MAC,    KC_TRANSPARENT,
     KC_BSPACE,      KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_NO,          KC_ENTER,       KC_0,           KC_AUDIO_VOL_DOWN,KC_AUDIO_VOL_UP,KC_MEDIA_PLAY_PAUSE
   ),
 
